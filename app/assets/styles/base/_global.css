@@ -1,4 +1,15 @@
-h1 {
+body {
 
-	font-size: 45px;
+	font-family: 'Cinzel', serif;
+}
+
+
+ul {
+	list-style: none;
+	
+}
+a {
+	text-decoration: none;
+	color: inherit;
+
 }
