@@ -363,6 +363,8 @@ a {
 .large-hero {
 	
 	position: relative;
+	margin: 0;
+	padding: 0;
 }
 
 .large-hero__img {
@@ -417,3 +419,61 @@ a {
 	color: white;
 	padding: 10px 25px;
 }
+
+@media (min-width: 580px) {
+
+.btn {
+
+		background-color: blue
+}}
+
+@media (min-width: 800px) {
+
+.btn {
+
+		background-color: yellow
+}}
+
+@media (min-width: 1200px) {
+
+.btn {
+
+		background-color: green
+}}
+
+.main-nav {
+
+	padding: 1.5625rem;
+
+
+
+
+
+}
+
+/*controllare bene come mai non si riesce ad applicare lo stile con le classi*/
+
+.main-nav ul {
+
+	
+	margin: 0;
+	padding: 0;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+
+	
+	}
+
+.main-nav ul li {
+
+			
+
+		}

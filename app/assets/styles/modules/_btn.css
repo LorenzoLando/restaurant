@@ -3,4 +3,18 @@
 	background-color: black;
 	color: white;
 	padding: 10px 25px;
+	
+
+	@mixin atSmall {
+
+		background-color: blue;
+	}
+	@mixin atMedium {
+
+		background-color: yellow;
+	}
+	@mixin atLarge {
+
+		background-color: green;
+	}
 }
