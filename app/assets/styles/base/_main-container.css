@@ -1,0 +1,17 @@
+.main-container {
+
+	display: flex;
+	flex-direction: column;
+	@mixin atMedium {
+
+
+
+	}
+
+
+	@mixin atMedium {
+
+
+
+	}
+}

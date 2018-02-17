@@ -365,6 +365,9 @@ a {
 	position: relative;
 	margin: 0;
 	padding: 0;
+
+
+
 }
 
 .large-hero__img {
@@ -373,8 +376,6 @@ a {
 	}
 
 .large-hero__text {
-
-
 
 		position: absolute;
 		top: 50%;
@@ -389,19 +390,41 @@ a {
 
 .large-hero__title {
 
-		font-weight: 300;
+		font-weight: 10;
 		color: ;
-		font-size: 4.8rem;
+		font-size: 3rem;
 		margin: 0;
+
+
 	}
+
+@media (min-width: 800px) {
+
+.large-hero__title {
+
+			font-weight: 18.75;
+			font-size: 4.8rem
+
+
+	}}
 
 .large-hero__subtitle {
 
-		font-weight: 300;
+		font-weight: 100;
 		color: ;
-		font-size: 2.9rem;
+		font-size: 2rem;
 		margin: 0;
+
 	}
+
+@media (min-width: 800px) {
+
+.large-hero__subtitle {
+
+			font-weight: 18.75;
+			font-size: 2.9rem
+
+	}}
 
 .large-hero__description {
 		color: white;
@@ -411,43 +434,52 @@ a {
 		max-width: 30rem;
 		margin-left: auto;
 		margin-right: auto;
+	
+
+
+
+
 	}
 
+@media (min-width: 800px) {
+
+.large-hero__description {
+
+			font-weight: 100;
+			font-size: 1.875rem
+	
+
+
+
+
+	}}
+
 .btn {
+	
 	display: inline-block;
 	background-color: black;
 	color: white;
-	padding: 10px 25px;
+	padding: 5px 15px;
+
 }
-
-@media (min-width: 580px) {
-
-.btn {
-
-		background-color: blue
-}}
 
 @media (min-width: 800px) {
 
 .btn {
 
-		background-color: yellow
+		padding: 10px 25px
+
 }}
 
-@media (min-width: 1200px) {
+.btn__foot {
 
-.btn {
-
-		background-color: green
-}}
+		background-color: rgb(76, 79, 84);
+		color: white;
+	}
 
 .main-nav {
 
 	padding: 1.5625rem;
-
-
-
-
 
 }
 
@@ -458,22 +490,47 @@ a {
 	
 	margin: 0;
 	padding: 0;
+
+	}
+
+@media (min-width: 800px) {
+
+.main-nav ul {
+
+			display: -webkit-box;
+
+			display: -ms-flexbox;
+
+			display: flex;
+			-webkit-box-orient: horizontal;
+			-webkit-box-direction: normal;
+			    -ms-flex-direction: row;
+			        flex-direction: row;
+			-webkit-box-pack: justify;
+			    -ms-flex-pack: justify;
+			        justify-content: space-between
+
+	}}
+
+.footer {
+
+	background-color: black;
+	text-align: center;
+}
+
+.main-container {
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
-	-webkit-box-orient: horizontal;
+	-webkit-box-orient: vertical;
 	-webkit-box-direction: normal;
-	    -ms-flex-direction: row;
-	        flex-direction: row;
-	-webkit-box-pack: justify;
-	    -ms-flex-pack: justify;
-	        justify-content: space-between;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	font-size: 1.1rem;
 
-	
+}
+
+.main-container_section {
+		 text-align: center;
+		 
 	}
-
-.main-nav ul li {
-
-			
-
-		}

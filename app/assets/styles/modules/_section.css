@@ -1,0 +1,15 @@
+
+.main-container {
+	display: flex;
+	flex-direction: column;
+	font-size: 1.1rem;
+	
+	&_section {
+		 text-align: center;
+		 
+	}
+
+}
+
+
+

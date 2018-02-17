@@ -1,20 +1,21 @@
+
 .btn {
+	
 	display: inline-block;
 	background-color: black;
 	color: white;
-	padding: 10px 25px;
-	
+	padding: 5px 15px;
 
-	@mixin atSmall {
-
-		background-color: blue;
-	}
 	@mixin atMedium {
 
-		background-color: yellow;
-	}
-	@mixin atLarge {
+		padding: 10px 25px;
 
-		background-color: green;
 	}
+
+	&__foot {
+
+		background-color: rgb(76, 79, 84);
+		color: white;
+	}
+
 }

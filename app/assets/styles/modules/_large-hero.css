@@ -12,8 +12,6 @@
 
 	&__text {
 
-
-
 		position: absolute;
 		top: 50%;
 		/*translate sposta l elemento sull asse verticale in base a una percentuale che al 100% e la sua altezza, quindi in questo caso 
@@ -26,19 +24,36 @@
 
 	&__title {
 
-		font-weight: 300;
+		font-weight: 10;
 		color: ;
-		font-size: 4.8rem;
+		font-size: 3rem;
 		margin: 0;
-	}
 
+
+		@mixin atMedium {
+
+			font-weight: 18.75;
+			font-size: 4.8rem;
+
+		}
+
+
+	}
 
 	&__subtitle {
 
-		font-weight: 300;
+		font-weight: 100;
 		color: ;
-		font-size: 2.9rem;
+		font-size: 2rem;
 		margin: 0;
+
+		@mixin atMedium {
+
+			font-weight: 18.75;
+			font-size: 2.9rem;
+
+		}
+
 	}
 
 	&__description {
@@ -49,5 +64,20 @@
 		max-width: 30rem;
 		margin-left: auto;
 		margin-right: auto;
+
+		@mixin atMedium {
+
+			font-weight: 100;
+			font-size: 1.875rem;
+
+		}
+	
+
+
+
+
 	}
+
+
+
 }
