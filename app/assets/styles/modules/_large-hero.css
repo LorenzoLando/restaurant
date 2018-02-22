@@ -1,14 +1,69 @@
 
 .large-hero {
+
 	
 	position: relative;
 	margin: 0;
 	padding: 0;
 
+
 	&__img {
-		width: 100%;
+		width: 200%;
 		height: auto;
 	}
+
+	&__top {
+
+		display: flex;
+		flex-direction: row;
+		position: absolute;
+		top: 5%;
+		width: 100%;
+		align-items: center;
+		justify-content: space-between;
+
+	}
+
+	&__icon {
+		width: 3rem;
+		height: auto;
+		margin-left: 1.5rem;
+	}
+
+	&__btn {
+		margin-right: 1.5rem;
+	}
+		
+
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+		&__nav {
+
+		position: absolute;
+		top: 20%;
+		/*translate sposta l elemento sull asse verticale in base a una percentuale che al 100% e la sua altezza, quindi in questo caso 
+		lo sposta di meta` dell altezza verso l alto*/
+		transform: translateY(-50%);
+		left: 0;	
+		width: 100%;
+		text-align: center;
+
+	}
+
+
+	
 
 	&__text {
 

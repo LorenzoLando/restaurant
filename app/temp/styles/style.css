@@ -360,7 +360,13 @@ a {
 
 }
 
+* {
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+
 .large-hero {
+
 	
 	position: relative;
 	margin: 0;
@@ -371,8 +377,55 @@ a {
 }
 
 .large-hero__img {
-		width: 100%;
+		width: 200%;
 		height: auto;
+	}
+
+.large-hero__top {
+
+		display: -webkit-box;
+
+		display: -ms-flexbox;
+
+		display: flex;
+		-webkit-box-orient: horizontal;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: row;
+		        flex-direction: row;
+		position: absolute;
+		top: 5%;
+		width: 100%;
+		-webkit-box-align: center;
+		    -ms-flex-align: center;
+		        align-items: center;
+		-webkit-box-pack: justify;
+		    -ms-flex-pack: justify;
+		        justify-content: space-between;
+
+	}
+
+.large-hero__icon {
+		width: 3rem;
+		height: auto;
+		margin-left: 1.5rem;
+	}
+
+.large-hero__btn {
+		margin-right: 1.5rem;
+	}
+
+.large-hero__nav {
+
+		position: absolute;
+		top: 20%;
+		/*translate sposta l elemento sull asse verticale in base a una percentuale che al 100% e la sua altezza, quindi in questo caso 
+		lo sposta di meta` dell altezza verso l alto*/
+		-webkit-transform: translateY(-50%);
+		        transform: translateY(-50%);
+		left: 0;	
+		width: 100%;
+		text-align: center;
+
 	}
 
 .large-hero__text {
@@ -513,9 +566,7 @@ a {
 	}}
 
 .footer {
-
-
-
+	
 	background-color: black;
 	text-align: center;
 }
@@ -536,3 +587,8 @@ a {
 		 text-align: center;
 		 
 	}
+
+.svg {
+	height: 50px;
+	width: 50px;
+}
