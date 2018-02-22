@@ -377,8 +377,8 @@ a {
 }
 
 .large-hero__img {
-		width: 200%;
-		height: auto;
+		width: 100vw;
+		height: 68vh;
 	}
 
 .large-hero__top {
@@ -393,7 +393,7 @@ a {
 		    -ms-flex-direction: row;
 		        flex-direction: row;
 		position: absolute;
-		top: 5%;
+		top: 28px;
 		width: 100%;
 		-webkit-box-align: center;
 		    -ms-flex-align: center;
@@ -415,16 +415,29 @@ a {
 	}
 
 .large-hero__nav {
-
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-orient: horizontal;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: row;
+		        flex-direction: row;
 		position: absolute;
-		top: 20%;
-		/*translate sposta l elemento sull asse verticale in base a una percentuale che al 100% e la sua altezza, quindi in questo caso 
-		lo sposta di meta` dell altezza verso l alto*/
-		-webkit-transform: translateY(-50%);
-		        transform: translateY(-50%);
-		left: 0;	
+		top: 100px;
 		width: 100%;
-		text-align: center;
+		-webkit-box-align: center;
+		    -ms-flex-align: center;
+		        align-items: center;
+		-ms-flex-pack: distribute;
+		    justify-content: space-around;
+		color: white;
+		padding: 10px 30px;
+		font-family: 'Montserrat', sans-serif;
+		font-size: .95rem;
+		font-weight: 700;
+		border-radius: .2rem;
+		background-color: red;
+
 
 	}
 
@@ -510,9 +523,13 @@ a {
 .btn {
 	
 	display: inline-block;
-	background-color: black;
+	background-color: #f49e42;
 	color: white;
-	padding: 5px 15px;
+	padding: 10px 30px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: .95rem;
+	font-weight: 700;
+	border-radius: .2rem;
 
 }
 
