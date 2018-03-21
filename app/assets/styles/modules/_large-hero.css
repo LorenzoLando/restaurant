@@ -1,16 +1,19 @@
 
 .large-hero {
 
-	
 	position: relative;
-	margin: 0;
-	padding: 0;
 	font-family: 'Montserrat', sans-serif;
+	
 
 
 	&__img {
 		width: 100vw;
 		height: 60vh;
+
+		@mixin atMedium {
+			height: 120vh;
+		}
+
 	}
 
 	&__top {
@@ -23,16 +26,36 @@
 		align-items: center;
 		justify-content: space-between;
 
+
 	}
 
 	&__icon {
 		width: 3rem;
 		height: auto;
 		margin-left: 1.5rem;
+
+		@mixin atMedium {
+			width: 6.28rem;
+			height: auto;
+			margin-left: 11.812rem;
+			margin-top: 1rem;
+
+		}
 	}
 
 	&__btn {
 		margin-right: 1.5rem;
+
+		@mixin atMedium {
+			margin-right: 11.68rem;
+			margin-top: 25px;
+			font-size: 1.1rem;
+			font-weight: 400;
+			line-height: 27px;
+			width: 197px;
+			height: 44px;
+			text-align: center;
+		}
 	}
 		
 	&__nav {
@@ -48,12 +71,29 @@
 		font-size: .8125rem;
 		font-weight: 700;
 		line-height: 1.4375rem;
+		
+
+		@mixin atMedium {
+
+			font-size: 1.1rem;
+			font-weight: 400;
+			line-height: 27px;
+			font-style: ;
+			position: absolute;
+			top: 74px;
+			left: 0;
+			right: 0;
+			margin: auto;
+			width: 45%;
+
+		}
+		
 	}
 
 	&__text {
 
 		position: absolute;
-		top: 50%;
+		top: 55%;
 		/*translate sposta l elemento sull asse verticale in base a una percentuale che al 100% e la sua altezza, quindi in questo caso 
 		lo sposta di meta` dell altezza verso l alto*/
 		transform: translateY(-50%);
@@ -61,6 +101,10 @@
 		width: 100%;
 		text-align: center;
 
+		@mixin atMedium {
+			top: 40%;
+		}
+		
 	}
 
 	&__title {
@@ -69,13 +113,15 @@
 		line-height: 2.0625rem;
 		color: #ffffff;
 		text-shadow: 2px 2px 0 rgba(0, 0, 0, .1);
-		margin-bottom: 0;
+		
+		
+	
 		
 		@mixin atMedium {
 
-			font-weight: 18.75;
-			font-size: 4.8rem;
-
+			font-size: 91px;
+			font-weight: 900;
+			line-height: 91px;
 		}
 
 
@@ -83,18 +129,22 @@
 
 	&__subtitle {
 
-		font-size: 2rem;
+		font-size: 1.2rem;
 		font-weight: 900;
 		line-height: 2rem;
 		color: #ffffff;
 		text-shadow: 2px 2px 0 rgba(0, 0, 0, .1);
-		margin-top: 0;
-		margin-bottom: 0;
+		margin-top: -25px;
+		
+		
+		
 
 		@mixin atMedium {
 
-			font-weight: 18.75;
-			font-size: 2.9rem;
+			font-weight: 400;
+			font-size: 50px;
+			line-height: 32px;
+			margin-top: -50px;
 
 		}
 
@@ -107,15 +157,15 @@
 		line-height: 1.5rem;
 		color: #ffffff;
 		text-shadow: 2px 2px 0 rgba(0, 0, 0, .1);
-		margin-top: 0;
-		margin-left: auto;
-		margin-right: auto;
+		
+		
 		
 
 		@mixin atMedium {
 
-			font-weight: 100;
-			font-size: 1.875rem;
+			font-weight: 400;
+			font-size: 19px;
+			line-height: 32px;
 
 		}
 	}

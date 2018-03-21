@@ -10,7 +10,11 @@
   </head>
   <body>
     <header class="large-hero">
-      <img class="large-hero__img"  src="assets/images/food.jpg" alt="food picture">
+      <!--  -->
+      <picture>
+        <source srcset="assets/images/wood.jpg" media="(min-width: 800px)">
+        <img class="large-hero__img"  src="assets/images/wood.jpg" alt="food picture">
+      </picture>
       
       <div class="large-hero__top">
         <img class="large-hero__icon" src="assets/images/brazil.png" alt="brazillian flag icon">
@@ -33,7 +37,7 @@
       </div>
           
     </header>
-      <section id="menu">
+      <section id="menu" class="menu">
            <h3>MENU</h3>
             <h4>Rodizo Lunch</h4>
             <p>Saturday:£19.95</p>
