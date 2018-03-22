@@ -344,12 +344,15 @@ template {
   display: none;
 }
 
-body {
-
-	font-family: 'Cinzel', serif;
+* {
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	margin: 0;
+	padding: 0;
 }
 
 ul {
+	
 	list-style: none;
 	
 }
@@ -358,13 +361,6 @@ a {
 	text-decoration: none;
 	color: inherit;
 
-}
-
-* {
-	-webkit-box-sizing: border-box;
-	        box-sizing: border-box;
-	margin: 0;
-	padding: 0;
 }
 
 .large-hero {
@@ -566,7 +562,6 @@ a {
 	}}
 
 .btn {
-	
 	display: inline-block;
 	background-color: #f49e42;
 	color: white;
@@ -655,9 +650,10 @@ a {
 	width: 50px;
 }
 
-.menu {
-	background-color: red;
-	margin-top: -0.5rem;
-
+.my-introduction {
+	height: 65vh;
+	width: 100vw;
+	background-color: blue;
+	margin-top: -28px;
 
 }
