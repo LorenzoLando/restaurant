@@ -394,7 +394,7 @@ a {
 		    -ms-flex-direction: row;
 		        flex-direction: row;
 		position: absolute;
-		top: 28px;
+		top: 1.75rem;
 		width: 100%;
 		-webkit-box-align: center;
 		    -ms-flex-align: center;
@@ -429,10 +429,10 @@ a {
 
 .large-hero__btn {
 			margin-right: 11.68rem;
-			margin-top: 25px;
+			margin-top: 1.5625rem;
 			font-size: 1.1rem;
 			font-weight: 400;
-			line-height: 27px;
+			line-height: 1.6865rem;
 			width: 197px;
 			height: 44px;
 			text-align: center
@@ -587,6 +587,16 @@ a {
 		color: white;
 	}
 
+.btn--menu {
+		
+		margin: 102px 41%;
+		background-color: #433d3c;
+		width: 270px;
+		height: 41px;
+		text-align: center;
+		
+	}
+
 .main-nav {
 
 	padding: 1.5625rem;
@@ -650,10 +660,88 @@ a {
 	width: 50px;
 }
 
+.menu {
+	font-family: 'Montserrat', sans-serif;
+	background-color: #f4ae46;
+}
+
+.menu__title {
+		color: white;
+		font-size: 62px;
+		font-weight: 900;
+		line-height: 105px;
+		text-align: center;
+		padding-top: 95px;
+	}
+
+.menu__subtitle {
+		font-family: 'Economica', sans-serif;
+		font-size: 50px;
+		font-weight: 700;
+		line-height: 85px;
+		color: #433d3c;
+	}
+
+.list {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
+}
+
+.list__element {
+
+		 -webkit-box-flex: 1;
+
+		     -ms-flex: 1 0 50%;
+
+		         flex: 1 0 50%;
+		 -webkit-box-sizing: border-box;
+		         box-sizing: border-box;
+		 padding: 50px 180px;
+		 text-align: justify;
+		 color: white;
+		 font-family: 'Montserrat', sans-serif;
+		 font-size: 17px;
+		 font-weight: 400;
+		 line-height: 20px;
+
+		
+	}
+
 .my-introduction {
+	font-family: 'Montserrat', sans-serif;
 	height: 65vh;
 	width: 100vw;
-	background-color: blue;
-	margin-top: -28px;
+	margin-top: -32px;
+	background-color: #fcf5ed;
 
+	
 }
+
+.my-introduction__title {
+		font-size: 40px;
+		font-weight: 900;
+		line-height: 27px;
+		color: #e60033;
+		text-align: center;
+		padding-top: 86px;
+
+	}
+
+.about {
+	font-family: 'Montserrat', sans-serif;
+	background-color: #FCF5ED;
+}
+
+.about__text {
+		padding: 50px 100px;
+		color: #433D3C;
+		text-align: justify;
+		font-family: 'Montserrat', sans-serif;
+		 font-size: 17px;
+		 font-weight: 900;
+		 line-height: 20px;
+
+	}

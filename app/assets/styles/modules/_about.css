@@ -1,0 +1,15 @@
+.about {
+	font-family: 'Montserrat', sans-serif;
+	background-color: #FCF5ED;
+
+	&__text {
+		padding: 50px 100px;
+		color: #433D3C;
+		text-align: justify;
+		font-family: 'Montserrat', sans-serif;
+		 font-size: 17px;
+		 font-weight: 900;
+		 line-height: 20px;
+
+	}
+}

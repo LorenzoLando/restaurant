@@ -23,5 +23,15 @@
 		color: white;
 	}
 
+	&--menu {
+		
+		margin: 102px 41%;
+		background-color: #433d3c;
+		width: 270px;
+		height: 41px;
+		text-align: center;
+		
+	}
+
 }
 
