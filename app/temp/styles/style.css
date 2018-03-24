@@ -633,10 +633,17 @@ a {
 	}}
 
 .footer {
-	
-	background-color: black;
-	text-align: center;
+	background-color: #433D3C;
+	height: 400px;
+	width: 100vw;
+	display: inline-block;
 }
+
+.footer__social {
+		width: 2.5rem;
+		height: auto;
+
+	}
 
 .main-container {
 	display: -webkit-box;
