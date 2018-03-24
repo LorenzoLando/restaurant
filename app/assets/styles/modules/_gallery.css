@@ -1,0 +1,11 @@
+.gallery {
+	
+	margin: 0;
+	display: flex;
+	direction: row;
+	&__element {
+		margin: 0;
+		width: 449px;
+		height: 344px;
+	}
+}

@@ -745,3 +745,22 @@ a {
 		 line-height: 20px;
 
 	}
+
+.contact {
+	text-align: center;
+}
+
+.gallery {
+	
+	margin: 0;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	direction: row;
+}
+
+.gallery__element {
+		margin: 0;
+		width: 449px;
+		height: 344px;
+	}
