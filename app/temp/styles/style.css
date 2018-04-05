@@ -371,7 +371,7 @@ a {
 
 .large-hero__img {
 		width: 100vw;
-		height: 60vh;
+		height: 75vh;
 
 	}
 
@@ -448,7 +448,7 @@ a {
 		        flex-direction: row;
 		position: absolute;
 		top: 100px;
-		width: 100%;
+		width: 90%;
 		-webkit-box-align: center;
 		    -ms-flex-align: center;
 		        align-items: center;
@@ -459,6 +459,10 @@ a {
 		font-size: .8125rem;
 		font-weight: 700;
 		line-height: 1.4375rem;
+	/*centrare un absolute element left:0 right:0 and amrgin auto*/
+		left: 0;
+		right: 0;
+		margin: auto;
 		
 	}
 
@@ -482,14 +486,18 @@ a {
 .large-hero__text {
 
 		position: absolute;
-		top: 55%;
+		top: 49%;
 		/*translate sposta l elemento sull asse verticale in base a una percentuale che al 100% e la sua altezza, quindi in questo caso 
 		lo sposta di meta` dell altezza verso l alto*/
 		-webkit-transform: translateY(-50%);
 		        transform: translateY(-50%);
 		left: 0;	
-		width: 100%;
+		width: 80%;
 		text-align: center;
+		/*centrare un absolute element left:0 right:0 and amrgin auto*/
+		left: 0;
+		right: 0;
+		margin: auto;
 		
 	}
 
