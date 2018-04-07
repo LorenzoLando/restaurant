@@ -25,11 +25,18 @@
 
 	&--menu {
 		
-		margin: 102px 41%;
+		margin: 102px 25%;
 		background-color: #433d3c;
-		width: 270px;
-		height: 41px;
-		text-align: center;
+		width: 240px;
+		height: 45px;
+		
+
+
+		@mixin atMedium {
+			width: 270px;
+			height: 41px;
+			margin: 102px 41%;
+		}
 		
 	}
 

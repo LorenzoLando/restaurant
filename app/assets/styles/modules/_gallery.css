@@ -1,11 +1,27 @@
 .gallery {
 	
+	width: 100%;
 	margin: 0;
-	display: flex;
-	direction: row;
-	&__element {
+
+	@mixin atMedium {
 		margin: 0;
-		width: 449px;
-		height: 344px;
+		display: flex;
+		direction: row;
+	}
+
+
+
+	&__element {
+		
+		width: 100%;
+		margin: 0;
+		
+		
+
+		@mixin atMedium {
+			margin: 0;
+			width: 449px;
+			height: 344px;
+		}
 	}
 }

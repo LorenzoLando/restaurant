@@ -4,39 +4,72 @@
 
 	&__title {
 		color: white;
-		font-size: 62px;
+		font-size: 2.0625rem;
 		font-weight: 900;
-		line-height: 105px;
+		line-height: 56px;
 		text-align: center;
-		padding-top: 95px;
+		padding-top: 30px;
+
+		@mixin atMedium {
+			font-size: 3.875rem;
+			line-height: 105px;
+		}
 	}
 
 	&__subtitle {
 		font-family: 'Economica', sans-serif;
-		font-size: 50px;
+		font-size: 2.625rem;
 		font-weight: 700;
-		line-height: 85px;
+		line-height: 71px;
 		color: #433d3c;
+		margin-bottom: 15px;
+		margin-top: 15px;
+
+			
+		@mixin atMedium {
+			font-size: 3.125rem;
+			line-height: 85px;
+		}
 	}
 }
 
 .list {
 	display: flex;
+	flex-direction: column;
 	flex-wrap: wrap;
+
+	@mixin atMedium {
+		flex-direction: row;
+	}
 	
 
 	&__element {
 
-		 flex: 1 0 50%;
-		 box-sizing: border-box;
-		 padding: 50px 180px;
+		
 		 text-align: justify;
 		 color: white;
 		 font-family: 'Montserrat', sans-serif;
-		 font-size: 17px;
+		 font-size: 0.875rem;
 		 font-weight: 400;
-		 line-height: 20px;
+		 line-height: 17px;
+
+		 @mixin atMedium {
+		 	
+		 	flex: 1 0 50%;
+		 	box-sizing: border-box;
+		 	padding: 50px 180px;
+		 	font-size: 1.0625rem;
+		 	font-weight: 400;
+		 	line-height: 20px;
+		 }
 
 		
 	}
+}
+
+
+
+#times div {
+	text-align: center;
+	margin-bottom: 5px;
 }

@@ -1,28 +1,51 @@
 .footer {
 	background-color: #433D3C;
-	height: 400px;
+	height: auto;
 	width: 100vw;
-	display: inline-block;
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
+	margin-top: -5px;
+	
+
+	@mixin atMedium {
+		height: 400px;
+		width: 100vw;
+		flex-direction: row;
+
+	}
 
 	&__social {
-		width: 33.33%;
-		height: 100%;
+		
+		width: 100%;
+
+		@mixin atMedium {
+			width: 33.33%;
+			height: 100%;	
+		}
 		
 
 	}
 
 	&__text {
-		width: 33.33%;
-		height: 100%;
+		width: 100%;
+		
+
+		@mixin atMedium {
+			width: 33.33%;
+			height: 100%;
+		}
 		
 
 	}
 
 	&__btn {
-		width: 33.33%;
-		height: 100%;
+		width: 100%;
+
+
+		@mixin atMedium {
+			width: 33.33%;
+			height: 100%;
+		}
 		
 	}
 
@@ -31,23 +54,36 @@
 	&__icon {
 		width: 2.5rem;
 		height: auto;
-		margin-top: 80px;
+		margin-top: 20px;
 		position: relative;
-		left: 250px;
+		left: 105px;
 		margin-left: 15px;
+
+		@mixin atMedium {
+			margin-top: 80px;
+			left: 250px;
+			margin-left: 15px;		
+		}
 
 
 	}
 
 	&__paragraph {
-		margin-top: 80px;
+		margin-top: 40px;
 		width: 50%;
 		margin-left: auto;
 		margin-right: auto;
 		font-family: 'Montserrat', sans-serif;
 		font-weight: 400px;
-		line-height: 27px;
+		line-height: 15px;
 		color: #ffffff;
+	
+		@mixin atMedium {
+			margin-top: 80px;
+			line-height: 27px
+		}
+
+
 	}
 
 	&__button {
@@ -57,6 +93,12 @@
 		font-family: 'Montserrat', sans-serif;
 		font-size: 1.125rem;
 		font-weight: 700;
-		text-align: center; 
+		text-align: center;
+		margin-left: 25%;
+		margin-bottom: 15%;
+
+		@mixin atMedium {
+
+		}
 	}
 }
