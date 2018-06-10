@@ -19,7 +19,7 @@
       
       <div class="large-hero__top">
         <img class="large-hero__icon" src="assets/images/brazil.png" alt="brazillian flag icon">
-        <a  class="large-hero__btn btn" href="">BOOK A TABLE</a>
+        <button class="trigger large-hero__btn btn">BOOK A TABLE</button>
       </div>
          
       <nav>
@@ -39,6 +39,11 @@
     </header>
     <section class="my-introduction" >
       <h1 class="my-introduction__title">HOW TO ORDER AT HEY BRAZIL</h1>
+      <div class="my-introduction__section">
+         <button class="trigger btn btn--menu">BOOK A TABLE</button>
+      </div>
+      
+     <!-- qui inserire una form che sparisce e invia una mail al locale -->
     </section>
       <section id="menu" class="menu">
            <h3 class="menu__title">MENU</h3>
@@ -80,10 +85,12 @@
                         While you are eating, enjoy from our special selection of South American wines and experience the uniquely Brazilian taste of Caipirinha. It`ll make you want to samba party!
           </p>
       </section>
-      <section id="location" class="about">
+      <section class="about">
           <h3 class="my-introduction__title">Where To Find Us:</h3>
           <p class="about__text">We are located in the heart of Aberdeen, oposite to the Music Hall, right at the beginning of Crown Street, at number 13! </p>
-          <p>map</p>
+          <div id="map">
+           
+          </div>
       </section>
       <section id="times" class="menu">
           <h3 class="menu__title">Opening Times</h3>
@@ -103,11 +110,13 @@
             </div>
       </section>
       <section class="about">
-        <h3 class="my-introduction__title">Contact us</h3>
+        <div id="contatti">
+          <h3 class="my-introduction__title">Contact us</h3>
           <p class="contact about__text">If you have any queries or wish to contact us, please feel free to find us at:</p>
           <p class="about__text contact"><b><a href="01224575227">01224 575227</a></b></p>
           <p class="about__text contact"><b><a href="01224572240">01224 572240</a></b></p>
           <p class="about__text contact"><i>aberdeen@heybrazilrestaurants.com</i></p>
+        </div>
       </section>
       <section class="gallery">
         <img class="gallery__element" src="assets/images/food1.jpg">
@@ -128,8 +137,26 @@
         <p class="footer__paragraph">Aberdeen 2018</p>
       </div>
       <div class="footer__btn">
-         <p class="btn footer__button"><a>Book a Table</a></p>
+         <!-- <p class="btn footer__button"><a>Book a Table</a></p> -->
+         <button class="trigger btn footer__button">BOOK A TABLE</button>
+         <div class="form">
+           
+         </div>
       </div>
     </footer>
+    <div class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <h1>Hello, I am a modal!</h1>
+        </div>
+    </div>
+   
+    <!-- collegamento al file che contiene l`oggetto mappa -->
+    <script type="text/javascript" src="assets/script/mappa.js"></script>
+    <!-- js fornito da google maps nella quale va cambiata la chiave -->
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCkUOdZ5y7hMm0yrcCQoCvLwzdM6M8s5qk&callback=initMap">
+    </script>
+     <script type="text/javascript" src="assets/script/modal.js"></script>
+
 </body>
 </html>

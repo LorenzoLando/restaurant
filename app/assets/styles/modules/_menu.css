@@ -70,6 +70,13 @@
 
 
 #times div {
-	text-align: center;
-	margin-bottom: 5px;
+	
+		text-align: center;
+		margin-bottom: 25px;
+	
+	@mixin atMedium {
+		
+		margin-bottom: 5px;
+	}
+
 }
