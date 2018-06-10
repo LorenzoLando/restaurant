@@ -11,9 +11,9 @@ var modal = document.querySelector(".modal");
             toggleModal();
         }
     }
-
-    trigger[0].addEventListener("click", toggleModal);
-    trigger[1].addEventListener("click", toggleModal);
-     trigger[2].addEventListener("click", toggleModal);
-    closeButton.addEventListener("click", toggleModal);
+//uso un for loop per accedere a tutti i bottono trigger
+    for(var i = 0; i < trigger.length; i++) {
+        trigger[i].addEventListener("click", toggleModal);    
+    }
+     closeButton.addEventListener("click", toggleModal);
     window.addEventListener("click", windowOnClick);
