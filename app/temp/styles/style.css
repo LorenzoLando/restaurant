@@ -1002,6 +1002,8 @@ a {
 			height: 344px
 	}}
 
+/*modal che comprende tutto lo schermo*/
+
 .modal {
         position: fixed;
         left: 0;
@@ -1025,11 +1027,31 @@ a {
         left: 50%;
         -webkit-transform: translate(-50%, -50%);
                 transform: translate(-50%, -50%);
-        background-color: white;
+        background-color: #f49e42;
         padding: 1rem 1.5rem;
         width: 24rem;
         border-radius: 0.5rem;
+        color: white;
     }
+
+.modal-content__social {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-orient: horizontal;
+            -webkit-box-direction: normal;
+                -ms-flex-direction: row;
+                    flex-direction: row;
+            -ms-flex-pack: distribute;
+                justify-content: space-around;
+        }
+
+.modal-content__icon {
+            height: 5rem;
+            margin-right: 3rem;
+            
+
+        }
 
 .close-button {
         float: right;
